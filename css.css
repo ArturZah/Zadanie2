@@ -23,14 +23,6 @@
     margin-right: 20px;
 }
 
-.move-right {
-    animation: move-right-animation;
-}
-
-.move-left {
-    animation: move-left-animation;
-}
-
 .dot:last-child {
     margin: 0;
 }

@@ -8,7 +8,7 @@ $(document).ready(function () {
     })
 
     mousemovemethod = (e) => {
-        $('#dots').css('left', (e.pageX - 30));
+        $('#dots').css('right', (e.pageX - 30));
     }
 
     $('.container').mousemove(mousemovemethod);
